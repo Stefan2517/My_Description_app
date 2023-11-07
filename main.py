@@ -14,3 +14,9 @@ with col2:
     Follower of constant innovation and exploration in the technological field.
     """
     st.info(content)
+
+prop = """
+Below you can find some of the apps I have build in Python. Feel free to contact me!
+"""
+
+st.write(prop)
