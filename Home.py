@@ -30,7 +30,7 @@ with col3:
     for index, row in df[:10].iterrows(): #primele 10 coloane
         st.header(row["title"])
         st.write(row["description"])
-        st.image("images/" + row["image"]) # trebuia specificata calea, dadea doar denumirea imaginii, main.py nu e in acelasi folder cu imaginile
+        st.image("images/" + row["image"]) # trebuia specificata calea, dadea doar denumirea imaginii, Home.py nu e in acelasi folder cu imaginile
       #  st.write("[Source Code](https://github.com/)") #daca era pt toate acelasi link
         st.write(f"[Source Code]({row['url']})")
 
